@@ -453,11 +453,11 @@ main .MainBack .mainBlock{
 
 main .short-info{
     width: 1170px;
+    margin: auto;
     display: flex;
     border: 1px solid #E6E6E6;
     border-radius: 5px;
     margin-bottom: 48px;
-    margin-left: 373px;
     margin-top: 100px;
 }
 
@@ -471,7 +471,7 @@ main .short-info .text h5{
     line-height: 33px;
     color: #34495E;
     padding-top: 27px;
-    padding-left: 2px;
+    padding-left: 10px;
 }
 main .short-info .text p{
     font-family: 'Lato';
@@ -497,7 +497,7 @@ main .short-info input{
     border: 0;
     border-radius: 6px;
     margin: auto;
-    margin-right: 40px;
+    margin-right: 32px;
 }
 /* mexute*/
 main .container{
@@ -1326,6 +1326,7 @@ color: #A1B1BC
     line-height: 19px;
     color: #FFFFFF;
     text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
 .Paragraps .item p{
@@ -1341,7 +1342,7 @@ color: #A1B1BC
 .Paragraps .item input{
     font-family: 'Lato';
     font-weight: 700;
-    font-size: 19px;
+    font-size: 15px;
     line-height: 19px;
     color: #FFFFFF;
     text-transform: uppercase;

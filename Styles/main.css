@@ -168,21 +168,7 @@ header .content .Maintext .title h1{
     padding-top: 36px;
 
 }    
-/*
-header .content .Maintext h1 span{
-    font-family: "Lato";
-    font-style: normal;
-    font-size: 80px;
-    line-height: 19px;
-    color: #fff;
-    display: inline-block;
-    border: 3px solid #fff;
-    width: 64px;
-    height: 64px;
-    border-radius: 9px;
-    padding-top: 20px;
-}
-*/
+
 header .content .Maintext p{
     display: inline-block;
     width: 103%;
@@ -280,8 +266,8 @@ main .MainBack .content{
 main .MainBack .content .head{
     display: flex;
     justify-content: space-between;
-    padding-top: 96px;
-    margin-bottom: 47px;
+    padding-top: 97px;
+    margin-bottom: 46px;
 }
 
 main .MainBack .content h3{
@@ -347,13 +333,24 @@ main .MainBack .mainBlock{
     margin-left: 10px;
 }
 
+.mainBlock .block:nth-child(2){
+    margin-left: 33px;
+}
 
+.mainBlock .block:nth-child(3){
+    margin-left: 36px;
+}
+
+.mainBlock .block:nth-child(4) .about{
+    padding-left: 24px;
+}
 .mainBlock .block .poster{
     height: 366px;
 }
 
 .mainBlock .block:hover .about{
     background-color: #2C3E50;
+    width: 103%;
     
 }
 
@@ -366,6 +363,7 @@ main .MainBack .mainBlock{
     background-color: #2C3E50;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+    width: 103%;
     
 }
 
@@ -384,7 +382,10 @@ main .MainBack .mainBlock{
     border: 1px solid #E6E6E6;
     padding-left: 19px;
     padding-bottom: 14px;
+    padding-top: 2px;
 }
+
+
 
 .mainBlock .block .about h4{
     font-family: 'Lato';
@@ -392,10 +393,10 @@ main .MainBack .mainBlock{
     font-weight: 700;
     line-height: 33px;
     color: #2C3E50;
-    padding: 11px 0 10px 0;
+    padding: 9px 0 10px 0;
 }
 .mainBlock .block .about .star{
-    padding-bottom: 5px;
+    padding-bottom: 3px;
 }
 
 .mainBlock .block .about .star i{
@@ -470,7 +471,7 @@ main .short-info .text h5{
     font-size: 24px;
     line-height: 33px;
     color: #34495E;
-    padding-top: 27px;
+    padding-top: 29px;
     padding-left: 10px;
 }
 main .short-info .text p{
@@ -479,7 +480,7 @@ main .short-info .text p{
     font-size: 14px;
     line-height: 24px;
     color: #A1B1BC;
-    padding: 6px 3px;
+    padding: 6px 9px;
 }
 
 main .short-info input{
@@ -644,12 +645,12 @@ main .container .poster img{
 }
 
 .poster .featured-prod{
-    width: 100%;
+    width: 102%;
     height: 50px;
     background-color: #E46960;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
-    padding: 5px;
+    padding: 6px;
 }
 .poster .featured-prod span{
     color: #fff;
@@ -658,7 +659,7 @@ main .container .poster img{
     font-family: 'Lato';
     font-weight: 400;
     padding-left: 13px;
-    padding-top: 2px;
+    padding-top: 3px;
     float: left;
 
 }
@@ -827,15 +828,21 @@ main .container .poster img{
     padding-left: 20px;
 }
 
+
 .content.Fifth .points .item .info h5{
     font-family: 'Lato';
-    font-weight: 400;
+    font-weight: 300;
     font-size: 15px;
     line-height: 24px;
     color: #34495E;
     padding-left: 20px;
     padding-bottom: 10px;
 }
+
+.content.Fifth .points .item-2 .info h5, .content.Fifth .points .item-4 .info h5{
+    padding-bottom: 5px;
+}
+
 
 .content.Fifth .points .item .info p{
     font-family: 'Lato';
@@ -993,8 +1000,8 @@ color: #A1B1BC
     font-size: 36px;
     color: #34495E;
     line-height: 33px;
-    padding: 95px 10px 0;
-    margin-bottom: 50px;
+    padding: 96px 10px 0;
+    margin-bottom: 49px;
    
 }
 
@@ -1097,8 +1104,8 @@ color: #A1B1BC
     font-size: 36px;
     color: #34495E;
     line-height: 33px;
-    padding: 95px 10px 0;
-    margin-bottom: 50px;
+    padding: 96px 10px 0;
+    margin-bottom: 49px;
 }
 
 .shop-service .service h2 .span{
@@ -1175,16 +1182,19 @@ color: #A1B1BC
     width: 1170px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
     padding: 114px 0;
 }
 .BigContainer-3 .content .item{
     position: relative;
-    margin-left: 50px;
+    margin-left: 56px;
 }
 
 .BigContainer-3 .content .item:first-child{
     margin-left: 0;
+}
+
+.BigContainer-3 .content .item:nth-child(3){
+    padding-left: 23px;
 }
 
 .BigContainer-3 .content h1{
@@ -1193,7 +1203,7 @@ color: #A1B1BC
     font-size: 72px;
     color: #FFFFFF;
     line-height: 30px;
-    padding-left: 50px;
+    padding-left: 52px;
 }
 
 .BigContainer-3 .content span{
@@ -1245,6 +1255,11 @@ color: #A1B1BC
   
 }
 
+.listMain .list:nth-child(2){
+    margin-left: 12px;
+}
+
+
 .listMain .list li a{
     padding-bottom: 23px;
     font-family: 'Lato';
@@ -1254,6 +1269,7 @@ color: #A1B1BC
     color: #A1B1BC;
     text-decoration: none;
     padding-top: 3px;
+    padding-left: 6px;
 }
 
 .listMain .list li i{
@@ -1564,7 +1580,7 @@ Footer .products .prod h4{
 }
 Footer .products .prod .detail{
     margin-left: 20px;
-    margin-top: -10px;
+    margin-top: -12px;
 
 }
 
@@ -1595,6 +1611,10 @@ Footer .products .prod p.info{
 
 Footer .products .prod p span{
     color: #1ABC9C;
+}
+
+Footer .products.second{
+    margin-left: 67px;
 }
 
 footer .copyright{
